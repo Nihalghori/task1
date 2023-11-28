@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+    background-color: #f5f5f5;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .navbar{
+        background-color: #f65506;
+        height: 80px;
+       
+    }
+    .nav-link{
+    color: #fff !important;
+    font-weight: 600 !important;
+    }
+    .nav-link:hover{
+        background-color: #ce4a09;
+        border-radius: 15px;
+    }
+    .search{
+        margin-left: 100px;
+    
+    }
+    .input{
+        width: 450px !important;
+        border-radius: 12px !important;
+        position: relative;
+    }
+    .btn{
+        position: absolute;
+         right: 320px;
+         background-color: #f656065b !important;
+         width: 50px !important;
+        padding: 2px !important;
+         margin-top: 5px;
+        color: #f65506 !important; 
+    }
+    .main2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex-wrap: nowrap;
+        height: 310px;
+        /* background-color: #3F0686; */
+    }
+    .categories{
+        width:300px;
+        height: 300px;
+        border-radius: 10px;
+        color: #a09f9f;
+        background-color: #fff;
+        margin-right: 10px;
+        box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+    
+    }
+    .list-box{
+        list-style: none;
+    }
+    .slider{
+        width: 850px;
+    }
+    .carousel-inner{
+        height: 400px !important;
+        border-radius: 10px !important;
+    }
+    .main3-img{
+     
+        width: 100%;
+        object-fit: contain;
+     
+     
+    }
+    .services{
+        font-size: 16px !important;
+        background-color: #FFF1EB;
+        padding: 10px;
+    }
+    .services:hover{
+        background-color: #f5e4dc;
+    }
+    .bi-check-square-fill{
+        color:#f65506;
+    }
+    .bi-truck{
+        color: #007787;
+    }
+    .bi-sign-turn-left-fill{
+        color: #3F0686;
+    }
+    .bi-tag-fill{
+        color: #f65506;
+    }
+    .bi-bag-check-fill{
+        color: #3F0686;
+    }
+    .categories-img{
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+       
+    }
+    .line{
+        height: 50px ;
+        width: 1px;
+        background-color: #c7b1a7;
+        margin-top:24px;
+    }
+    p{
+        text-align: center;
+    }
+    p:hover{
+        color: #f65506;
+    }
+   
+     
+     
+     
+     
+     
+   
+      
+      
+       
+      
+          
+       .one{
+        position: absolute;
+        font-size: 65px;
+        color:rgb(0,0,0);
+        left:15%;
+        top: 50%;
+        text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+        border-style:solid ;
+        font-weight: bold;
+       }
+      img.two {
+         position:absolute;
+         height: 500px;
+         left: 75%;
+         top: 20%;
+      }
+      .three{
+        position: absolute;
+        font-size: 70px;
+        color:rgb(218, 241, 11);
+        left: 20%;
+        top: 70%;
+        text-align: center;
+        text-shadow: 10px 10px 10px rgba(8, 8, 0, 0.973);
+        border-style:solid ;
+        justify-content: 50px;
+      }
+      link[a]{
+        color: #fff;
+      }
+      
+      
+     .section2{
+        max-width: 1200px;
+        margin: 10px;
+        padding: 50px;
+        background-color: #3e4444;
+        overflow: auto;
+        align-content:  border center;
+     }
+     .gallery{
+        margin: 2px;
+        box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+        -webkit-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+        
+        float: left;
+        width:150px;
+        height:auto;
+     }
+     .gallery img{
+        width:150px;
+        height:150px;
+     }
+     .description{
+        padding:10px;
+        text-align: center;
+        color: #000000;
+        font-size:10px;
+        font-weight:bold
+     }
+     .four{
+        position: relative;
+        bottom: 10%;
+        left: 1%;
+        color: #000;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow:10px 10px 10px rgb(255, 248, 248);
+     }
+     .left{
+        color: #000;
+        font-weight: bold;
+        font-size: 50px;
+     }
+     .pic{
+       
+        height: 500px;
+        bottom: 40px;
+     }
+     .pic2{
+        float:right;
+        position: absolute;
+        top:30%;
+        height: 500px ;
+        top:  140px;
+        left: 850px;
+      
+        
+     }
+     .container{
+        padding: 20px;
+        margin-left: 450px;
+        margin-top: 10px;
+       
+     }
+     .six{
+        position: relative;
+     bottom: 30%;
+      left: 200px;
+      top:250px;  
+     }
+     .pic3{
+        position: relative;
+        height: 500px;
+        bottom: 30%;
+        top:250px;
+        right: 5px;
+        
+     }
+    .salebox{
+        padding: 1px;
+        width: 920px;
+       border: 2px solid rgb(255, 255, 255);
+       box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+       -webkit-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+       -moz-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+    }
+    
+    #demo{
+        border: 2px solid #f65506;
+        margin-left: 380px;
+        margin-right: 380px;
+        background-color: #f65506;
+        color: #f5f5f5;
+        position: absolute;
+        top: 905px;
+        margin-left: 200px;
+    }
+   .sale{
+        font-size: 20px;
+        color: #f65506;
+    } 
+    .para{
+        font-size:15px;
+        position: absolute;
+        top: 908px;
+        left: 230px;
+    }
+    .shopbtn{
+        border: 2px solid orangered;
+        width: 80px;
+        color: #f65506;
+        position: absolute;
+        top: 905px;
+        margin-left: 800px;
+    }
+    .price{
+        font-size: 15px;
+        color:#f65506 ;
+        margin-right: 70px;
+    }
+    .price1{
+        font-size: 10px;
+        color:#9b9998 ;
+        margin-right: 50px;
+    }
+    .salebox2{
+        padding: 5px;
+        width: 920px;
+        margin-top: 200px;
+       border: 2px solid rgb(255, 255, 255);
+      
+    }
+    .tag{
+        font-size:15px;
+        position: absolute;
+        top: 1400px;
+        left: 130px;
+    }
+    .tag1{
+        font-size:15px;
+        position: absolute;
+        top: 1400px;
+        left: 130px;
+    }
+    .tag2{
+        font-size:15px;
+        position: absolute;
+        top: 1400px;
+        left: 130px;
+    }
+    .tag3{
+        font-size:15px;
+        position: absolute;
+        top: 1400px;
+        left: 130px;
+    }
+    .tag4{
+        font-size:15px;
+        position: absolute;
+        top: 1400px;
+        left: 130px;
+    }
+    .tag5{
+        font-size:10px;
+        position: absolute;
+        top: 1400px;
+        left: 130px;
+    }
+    .sale1{
+        font-size: 20px;
+        color: #000000;
+        border: none;
+    }
+    .gallery2{
+        margin: 2px;
+        box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+        -webkit-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+        
+        float: left;
+        width:200px;
+        height:150px;
+     }
+     .img3{
+        width:150px;
+        height:auto;
+     }
+     .gallery3{
+        margin-left: 42px;
+        box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+        -webkit-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+        
+        float: left;
+        width:150px;
+        height:auto;
+     }
+     .sale2{
+        font-size: 25px;
+        color: #000000;
+        border: none;
+        margin-top: 20px;
+    }
+    .Load{
+        margin-bottom: 20%;
+        color: #f65506;
+        border: 2px solid #f65506 ;
+        position: absolute;
+        top: 175rem;
+        left: 350px;
+        align-items: center;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+.Footer{
+    margin-top: 100%;
+}
+.Product-text{
+   margin-bottom: 1px;
+   font-size: 10px;
+   margin-right: 60px;
+}
+.daraz{
+    color: #f65506;
+    font-size: 20px;
+}
+.Capture{
+    position: absolute;
+    top:189rem;
+    left: 60rem;
+}
